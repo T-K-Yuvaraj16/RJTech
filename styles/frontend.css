@@ -1,0 +1,114 @@
+ .top {
+            background-color: orange;
+            margin-top: 0px;
+            padding: 10px;
+        } 
+        .list{
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            color: white;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           
+        }
+        .list a:link{
+            color: white;
+            background-color: transparent;
+        }
+       .list a:visited{
+            color: white;
+            background-color: transparent;
+        }
+
+        nav{
+            display: flex;
+            padding: 30px;
+            background-color: aquamarine;
+        }
+        .rj{
+            color: green;
+            font-size: larger;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .navBar a{
+            
+            padding:30px ;
+            text-decoration: none;
+        }
+        .navBar a:link,a:visited{
+            color: black;
+             background-color: transparent;
+        }
+        .navBar a:hover{
+            background-color: white;
+            color: red;
+        }
+        
+        .inside{
+            padding: 50px;
+            position: absolute;
+            left: 100px;
+            top: 200px;
+            color:black;
+        }
+        .child{
+            display: none;
+        }
+        .child .c1:hover, .c2:hover{
+            background-color: purple;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .child a{
+            background-color: transparent;
+            padding: 5px;
+        }
+        .parent:hover .child{
+            display: block;
+            position: absolute;
+        }
+        .form1{
+            display: none;
+            position: absolute;
+            top: 200px;
+            right: 40px;
+            text-align: center;
+            padding: 30px;
+            position: fixed;
+        }
+        .enq:active .form1{
+            display: block;
+        }
+        .html_list{
+            display: none;
+            height: 20px;
+            overflow-y: scroll;
+        }
+        .html:hover .html_list{
+            display: block;
+        }
+        .css_list{
+            display: none;
+            height: 20px;
+            overflow-y: scroll;
+        }
+        .css:hover .css_list{
+            display: block;
+        }
+        .js_list{
+            display: none;
+            height: 20px;
+            overflow-y: scroll;
+        }
+        .js:hover .js_list{
+            display: block;
+        }
+        .react_list{
+            display: none;
+            height: 20px;
+            overflow-y: scroll;
+            
+        }
+        .react:hover .react_list{
+            display: block;
+        }
+        
